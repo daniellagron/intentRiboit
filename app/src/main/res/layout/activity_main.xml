@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/A"
+            android:layout_width="130dp"
+            android:layout_height="55dp"
+            android:hint="A"
+            android:inputType="numberDecimal|numberSigned" />
+
+        <EditText
+            android:id="@+id/B"
+            android:layout_width="130dp"
+            android:layout_height="55dp"
+            android:hint="B"
+            android:inputType="numberDecimal|numberSigned" />
+
+        <EditText
+            android:id="@+id/C"
+            android:layout_width="130dp"
+            android:layout_height="55dp"
+            android:hint="C"
+            android:inputType="numberDecimal|numberSigned" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:onClick="Solution"
+        android:text="solution" />
+
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:onClick="Random"
+        android:text="Randomize" />
+
+
+    <TextView
+        android:id="@+id/ans1"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="Answer" />
+
+    <TextView
+        android:id="@+id/ans2"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="Answer:" />
+
+</LinearLayout>
+
+
